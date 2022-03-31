@@ -1,0 +1,23 @@
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{
+  "abc": "abc"
+}
+
+###
+GET http://localhost:8080/greeting
+Accept: application/json
+
+###
+
+GET http://localhost:8080/greeting?name=JeongIn
+Accept: application/json
+
+###
+
+GET http://localhost:8080/quote
+
+###
+
+GET http://localhost:8081/
